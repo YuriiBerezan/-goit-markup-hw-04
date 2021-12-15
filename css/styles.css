@@ -37,9 +37,13 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:active {
   color: var(--web-color);
 }
+/* a:visited {
+  color: tomato;
+} */
 button:hover {
   background: var(--web-color);
   color: var(--contacts-footer-color);
@@ -91,6 +95,7 @@ button:hover {
 .navigation-links {
   display: flex;
 }
+
 .navigation-links .navigation-links-item {
   margin-right: 50px;
 }
@@ -242,17 +247,14 @@ button:hover {
   content: '';
   margin-bottom: 30px;
   height: 120px;
-  /* padding-top: 25px; */
-  /* padding-bottom: 25px; */
+
   background-color: #f5f4fa;
-  background-size: contain;
+
   background-repeat: no-repeat;
   background-position: center;
 }
 .icon-antenna::before {
   background-image: url(../images/svg/antenna.svg);
-  /* height: 70px; */
-  /* width: 70px; */
 }
 
 .icon-clock::before {
