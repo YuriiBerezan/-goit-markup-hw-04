@@ -112,6 +112,10 @@ button:hover {
   color: var(--main-color);
 }
 
+.navigation-links-item .current {
+  color: var(--web-color);
+}
+
 .contacts-header-mail {
   align-items: center;
   display: inline-flex;
