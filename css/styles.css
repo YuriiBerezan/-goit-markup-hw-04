@@ -347,6 +347,20 @@ button:hover {
 .team-container {
   padding: 30px 0;
 }
+.icons-sprite {
+  display: flex;
+  justify-content: center;
+}
+.links-item {
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  fill: #fff;
+}
+.links-item:hover {
+  fill: var(--web-color);
+}
+
 .team-names {
   font-weight: 500;
   font-size: 16px;
