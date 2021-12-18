@@ -350,9 +350,11 @@ button:hover {
 .icons-sprite {
   display: flex;
   justify-content: center;
+  margin-top: 16px;
 }
 .links-item {
   margin-right: 10px;
+
   width: 44px;
   height: 44px;
   fill: #fff;
@@ -360,6 +362,9 @@ button:hover {
 .links-item:hover {
   fill: var(--web-color);
 }
+/* .links-item:last-child {
+  margin-right: 0;
+} */
 
 .team-names {
   font-weight: 500;
