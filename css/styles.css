@@ -50,7 +50,7 @@ button:hover {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -136,6 +136,10 @@ button:hover {
   background-size: contain;
   margin-right: 10px;
 }
+
+/* .contacts-header-mail::before:hover {
+  fill: var(--web-color);
+} */
 
 .contacts-header-tel {
   align-items: center;
@@ -349,21 +353,39 @@ button:hover {
 }
 .icons-sprite {
   display: flex;
+  /* padding: 0 auto; */
   justify-content: center;
   margin-top: 16px;
 }
-.links-item {
-  margin-right: 10px;
 
-  width: 44px;
+.team-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 44px;
-  fill: #fff;
+  width: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
 }
-.links-item:hover {
-  fill: var(--web-color);
+
+.icon-list {
+  margin-right: 10px;
 }
-/* .links-item:last-child {
+.icon-list:last-child {
   margin-right: 0;
+}
+.links-item {
+  fill: currentColor;
+}
+
+.team-link:hover,
+.team-link:focus {
+  color: #fff;
+  background-color: red;
+}
+
+/* .links-item:hover {
+  fill: var(--web-color);
 } */
 
 .team-names {
@@ -417,7 +439,7 @@ button:hover {
 .projects-img-list .projects-img-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
+  outline: 1px solid #eeeeee;
 }
 
 .projects-img-item:nth-child(3n) {
