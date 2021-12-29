@@ -128,14 +128,18 @@ button:hover {
   line-height: 1.7;
   color: var(--contacts-header-color);
 }
-.contacts-header-mail::before {
+.header-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
+/* .contacts-header-mail::before {
   content: '';
   width: 16px;
   height: 12px;
   background-image: url(../images/svg/envelope.svg);
   background-size: contain;
   margin-right: 10px;
-}
+} */
 
 /* .contacts-header-mail::before:hover {
   fill: var(--web-color);
@@ -151,14 +155,14 @@ button:hover {
   line-height: 1.7;
   color: var(--contacts-header-color);
 }
-.contacts-header-tel::before {
+/* .contacts-header-tel::before {
   content: '';
   width: 10px;
   height: 16px;
   background-image: url(../images/svg/smartphone.svg);
   background-size: contain;
   margin-right: 10px;
-}
+} */
 
 .page-footer {
   background: var(--background-color);
