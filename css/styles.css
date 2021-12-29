@@ -168,6 +168,7 @@ button:hover {
   background: var(--background-color);
   padding: 60px 0;
 }
+
 .web-studio-link-footer {
   display: inline-block;
   font-weight: 700;
@@ -186,6 +187,9 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
+.footer-address {
+  display: flex;
+}
 
 .contacts-footer {
   font-style: normal;
@@ -197,12 +201,39 @@ button:hover {
   margin-bottom: 9px;
 }
 
-.footer-address {
+.footer-address-links {
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   color: var(--contacts-footer-color);
   margin-bottom: 20px;
+}
+.footer-social-links {
+  margin-left: 156px;
+}
+.footer-jon-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--contacts-footer-color);
+  padding-top: 12px;
+}
+/* .footer-social-links {
+  display: flex;
+} */
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 20px;
 }
 /*STUDIO MAIN*/
 
