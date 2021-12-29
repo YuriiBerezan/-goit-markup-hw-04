@@ -381,7 +381,7 @@ button:hover {
 .team-link:hover,
 .team-link:focus {
   color: #fff;
-  background-color: red;
+  background-color: var(--web-color);
 }
 
 /* .links-item:hover {
