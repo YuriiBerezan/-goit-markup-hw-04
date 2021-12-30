@@ -168,6 +168,10 @@ button:hover {
   background: var(--background-color);
   padding: 60px 0;
 }
+.main-footer {
+  display: flex;
+  align-items: baseline;
+}
 
 .web-studio-link-footer {
   display: inline-block;
@@ -187,10 +191,13 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
-.footer-address {
-  display: flex;
-}
+/* .footer-address {
+  display: block;
+} */
 
+.footer-social-links {
+  margin-left: 152px;
+}
 .contacts-footer {
   font-style: normal;
   font-weight: 400;
@@ -208,21 +215,21 @@ button:hover {
   color: var(--contacts-footer-color);
   margin-bottom: 20px;
 }
-.footer-social-links {
-  margin-left: 156px;
-}
-.footer-jon-text {
+.footer-join-text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--contacts-footer-color);
-  padding-top: 12px;
+  /* padding-top: 12px; */
 }
-/* .footer-social-links {
+
+.footer-sprite {
   display: flex;
-} */
+  align-items: flex-start;
+  margin-top: 20px;
+}
 
 .footer-link {
   display: flex;
@@ -233,7 +240,21 @@ button:hover {
   border-radius: 50%;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 20px;
+}
+.footer-item {
+  fill: currentColor;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--web-color);
+  color: #fff;
+}
+.footer-list {
+  margin-right: 10px;
+}
+.footer-list:last-child {
+  margin-right: 0;
 }
 /*STUDIO MAIN*/
 
@@ -469,6 +490,11 @@ button:hover {
 
   margin-bottom: 50px;
 }
+
+.projects-btn:hover,
+.projects-btn:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .projects-btn-list .project-item {
   margin-right: 8px;
 }
@@ -501,6 +527,11 @@ button:hover {
   margin-right: 30px;
   margin-bottom: 30px;
   outline: 1px solid #eeeeee;
+}
+.projects-img-item:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
 .projects-img-item:nth-child(3n) {
