@@ -168,10 +168,6 @@ button:hover {
   background: var(--background-color);
   padding: 60px 0;
 }
-.main-footer {
-  display: flex;
-  align-items: baseline;
-}
 
 .web-studio-link-footer {
   display: inline-block;
@@ -186,17 +182,22 @@ button:hover {
 .web-studio-link-color-studio-footer {
   color: var(--contacts-footer-color);
 }
+.web-studio {
+  display: flex;
+  align-items: baseline;
+}
 
 .page-address {
   display: flex;
   flex-direction: column;
 }
-/* .footer-address {
-  display: block;
-} */
+.main-footer {
+  display: flex;
+  flex-direction: column;
+}
 
 .footer-social-links {
-  margin-left: 152px;
+  margin-left: 70px;
 }
 .contacts-footer {
   font-style: normal;
@@ -222,7 +223,6 @@ button:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--contacts-footer-color);
-  /* padding-top: 12px; */
 }
 
 .footer-sprite {
