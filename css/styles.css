@@ -111,7 +111,11 @@ button:hover {
   line-height: 1.14;
   color: var(--main-color);
 }
-
+.contacts-header-mail:focus,
+.contacts-header-tel:focus,
+.navigation-links-title:focus {
+  color: var(--web-color);
+}
 .navigation-links-item .current {
   color: var(--web-color);
 }
@@ -465,6 +469,7 @@ button:hover {
 
   color: #afb1b8;
   border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .customers-list {
