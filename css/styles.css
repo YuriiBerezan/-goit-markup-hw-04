@@ -59,9 +59,9 @@ button:hover {
 .section {
   padding: 94px 0;
 }
-/* .no-padding-top {
+.no-padding-top {
   padding-top: 0;
-} */
+}
 
 .centered {
   text-align: center;
